@@ -77,3 +77,20 @@ void main()
     int *d=&a;
      printf("min cost to connect all points is : %d",minCostConnectPoints(points,n,d));
 }
+
+
+
+o/p:
+
+enter number of points : 5
+enter 1 point : 0
+0
+enter 2 point : 2
+2
+enter 3 point : 3
+10
+enter 4 point : 5
+2
+enter 5 point : 7
+0
+min cost to connect all points is : 20
